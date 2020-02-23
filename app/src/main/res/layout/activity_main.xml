@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainLinear"
+    android:gravity="center"
+    android:background="#f00"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Did You Understand?"
+        android:textColor="#FFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yesButton"
+        android:background="#0000"
+        android:textColor="#000"
+        android:text="Yes"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noButton"
+        android:background="#0000"
+        android:textColor="#000"
+        android:text="NO"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
